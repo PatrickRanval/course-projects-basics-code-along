@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "-&gt; dist/course-project-basics-code-along",
+    "public": "y",
     "ignore": [
       "firebase.json",
       "**/.*",
