@@ -1,0 +1,43 @@
+[debug] [2023-11-22T19:29:11.123Z] ----------------------------------------------------------------------
+[debug] [2023-11-22T19:29:11.125Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\patra\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2023-11-22T19:29:11.125Z] CLI Version:   8.12.1
+[debug] [2023-11-22T19:29:11.126Z] Platform:      win32
+[debug] [2023-11-22T19:29:11.126Z] Node Version:  v18.16.0
+[debug] [2023-11-22T19:29:11.127Z] Time:          Wed Nov 22 2023 13:29:11 GMT-0600 (Central Standard Time)
+[debug] [2023-11-22T19:29:11.127Z] ----------------------------------------------------------------------
+[debug] [2023-11-22T19:29:11.127Z] 
+[debug] [2023-11-22T19:29:11.133Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-22T19:29:11.134Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\patra\Google Drive\CODE LABS 2023\ANGULAR\course-project-basics-code-along\course-projects-basics-code-along
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using ng-course-recipe-book-9246b. 
+[debug] [2023-11-22T19:29:12.782Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/ng-course-recipe-book-9246b  
+ 
+[debug] [2023-11-22T19:29:13.124Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 22 Nov 2023 19:29:12 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
