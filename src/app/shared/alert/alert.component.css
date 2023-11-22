@@ -1,0 +1,44 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 50;
+}
+
+.alert-box {
+  font-family: 'Courier New', monospace;
+  color: #ff9900;
+  text-shadow: 0 0 5px #ff3300, 0 0 10px #ff3300, 0 0 15px #ff3300;
+  position: fixed;
+  top: 30vh;
+  left: 20vw;
+  width: 60vw;
+  padding: 16px;
+  z-index: 100;
+  background: black;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.alert-box-actions {
+  text-align: right;
+}
+
+.btn-cyberpunk {
+  background-color: #ff9900;
+  color: #1a1a1a;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: 0 0 5px #ff3300, 0 0 10px #ff3300, 0 0 15px #ff3300;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-cyberpunk:hover {
+  background-color: #ff6600;
+}

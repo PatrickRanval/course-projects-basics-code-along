@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "-&gt; dist/course-project-basics-code-along",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
